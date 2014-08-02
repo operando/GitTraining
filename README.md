@@ -16,3 +16,7 @@ $ git checkout feature-A
 
 一つ前のbrunchに切り替える
 git checkout -
+
+git merge --no-ff feature-A
+
+git log --graph
