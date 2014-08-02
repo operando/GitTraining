@@ -29,3 +29,14 @@ git reflog
 
 直前のコミットメッセージの修正	
 git commit --amend
+
+Create feature-C branch
+
+git commit -am "comment"
+
+HEADを含めた２つまでのCommitを対象
+rebase -i HEAD~2
+
+pick hash Commit comment
+↓
+fixup hash Commit comment
