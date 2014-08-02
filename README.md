@@ -26,3 +26,6 @@ Create fix-B branch
 git reset -hard [hash]
 
 git reflog
+
+直前のコミットメッセージの修正	
+git commit --amend
