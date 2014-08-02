@@ -40,3 +40,11 @@ rebase -i HEAD~2
 pick hash Commit comment
 ↓
 fixup hash Commit comment
+
+Create feature-D branch
+
+リモートリポジトリのbranchも含んで表示	
+git branch -a
+
+checout元のbrunchを指定「origin/feature-D」	
+git checkout -b feature-D origin/feature-D
