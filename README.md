@@ -20,3 +20,9 @@ git checkout -
 git merge --no-ff feature-A
 
 git log --graph
+
+Create fix-B branch
+
+git reset -hard [hash]
+
+git reflog
