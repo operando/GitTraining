@@ -48,3 +48,9 @@ git branch -a
 
 checout元のbrunchを指定「origin/feature-D」	
 git checkout -b feature-D origin/feature-D
+
+改行コードを無視して比較する
+git diff -w
+
+リモートブランチとローカルブランチの差分を表示する
+git diff remotes/origin/master
