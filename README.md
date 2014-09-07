@@ -27,7 +27,7 @@ git reset -hard [hash]
 
 git reflog
 
-直前のコミットメッセージの修正	
+直前のコミットメッセージの修正
 git commit --amend
 
 Create feature-C branch
@@ -43,14 +43,16 @@ fixup hash Commit comment
 
 Create feature-D branch
 
-リモートリポジトリのbranchも含んで表示	
+リモートリポジトリのbranchも含んで表示
 git branch -a
 
-checout元のbrunchを指定「origin/feature-D」	
+checout元のbrunchを指定「origin/feature-D」
 git checkout -b feature-D origin/feature-D
 
 改行コードを無視して比較する
+
 git diff -w
 
 リモートブランチとローカルブランチの差分を表示する
+
 git diff remotes/origin/master
