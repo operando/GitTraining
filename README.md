@@ -56,3 +56,19 @@ git diff -w
 リモートブランチとローカルブランチの差分を表示する
 
 git diff remotes/origin/master
+
+## リモートブランチを含めたブランチ一覧表示
+
+git branch -a
+
+## リモートブランチのユーザ名と時間を含めたブランチ一覧を表示する
+
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)'
+
+## remote originからブランチを切る
+
+git checkout -b [branch_name] [remoto_branch_name]
+
+## ブランチを強制削除する
+
+git branch -D [branch_name]
