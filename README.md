@@ -72,3 +72,9 @@ git checkout -b [branch_name] [remoto_branch_name]
 ## ブランチを強制削除する
 
 git branch -D [branch_name]
+
+## コミットしたあとにそのコミットに変更を追加する
+
+git add README.md
+
+git commit --amend
