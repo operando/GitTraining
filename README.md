@@ -78,3 +78,11 @@ git branch -D [branch_name]
 git add README.md
 
 git commit --amend
+
+## remoteにbranshをPushする
+
+git push origin [branch_name]
+
+## remoteのbranshを削除する
+
+git push -u origin :[branch_name]
