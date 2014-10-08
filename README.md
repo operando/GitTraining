@@ -86,3 +86,7 @@ git push origin [branch_name]
 ## remoteのbranshを削除する
 
 git push -u origin :[branch_name]
+
+## 自身のCommit Logを表示する
+
+git log --author="`git config --get user.name`"
