@@ -90,3 +90,27 @@ git push -u origin :[branch_name]
 ## 自身のCommit Logを表示する
 
 git log --author="`git config --get user.name`"
+
+## Tagの作成
+
+git tag -a [tag name] -m "comment"
+
+## 過去の状態のTagの作成
+
+git tag -a [tag name] -m "comment" [commit hash]
+
+## Tagの削除
+
+git tag -d [tag name]
+
+## TagのPush
+
+git push origin [tag name]
+
+## Tagのチェックアウト
+
+git checkout -b [branch name] [tag name]
+
+## Tagの表示
+
+git tag -l
