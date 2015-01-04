@@ -53,7 +53,7 @@ git checkout -b feature-D origin/feature-D
 
 git diff -w
 
-リモートブランチとローカルブランチの差分を表示する
+## リモートブランチとローカルブランチの差分を表示する
 
 git diff remotes/origin/master
 
