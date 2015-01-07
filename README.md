@@ -27,7 +27,7 @@ git reset -hard [hash]
 
 git reflog
 
-## 直前のコミットメッセージの修正
+直前のコミットメッセージの修正
 git commit --amend
 
 Create feature-C branch
