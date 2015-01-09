@@ -14,7 +14,7 @@ or
 $ git branch feature-A
 $ git checkout feature-A
 
-## 一つ前のbrunchに切り替える
+一つ前のbrunchに切り替える
 git checkout -
 
 git merge --no-ff feature-A
