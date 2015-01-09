@@ -34,7 +34,7 @@ Create feature-C branch
 
 git commit -am "comment"
 
-HEADを含めた２つまでのCommitを対象
+## HEADを含めた２つまでのCommitを対象
 rebase -i HEAD~2
 
 pick hash Commit comment
